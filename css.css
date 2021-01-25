@@ -1,0 +1,233 @@
+.btn-styled {
+display: block;
+    width: 90%;
+    display: block;
+    background: #8cc14c;
+    border: 1px solid #8cc14c;
+    color: #fff;
+    padding: 5px 8px;
+    margin: 10px 0px 0px 20px;
+    height: 38px;
+}
+.imgs{
+    display: block;
+    width: 154px;
+    display: inline-flex;
+    margin: 10px 0px 0px 20px;
+    height: 74px;
+    background-image: url(https://www.irelandwebsitedesign.com/images/pay-bills/creditcards.png);
+    background-size: cover;
+    height: 24px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    border: 0px;
+}
+
+#abc {
+width:100%;
+height:100%;
+opacity:.95;
+top:0;
+left:0;
+display:none;
+position:fixed;
+background-color:#313131;
+overflow:auto;
+z-index: 99999999999999;
+}
+#close {
+    position: relative;
+    left: 616px;
+    top: -15px;
+    cursor: pointer;
+    background-image: url(https://img.flaticon.com/icons/png/512/61/61155.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF);
+    background-size: cover;
+    border: 0;
+    width: 42px;
+    height: 25px;
+    margin: 0;
+    padding: 0;
+}
+#popupContact {
+position:absolute;
+left:50%;
+top:17%;
+margin-left:-202px;
+font-family:'Raleway',sans-serif
+}
+#form {
+max-width:300px;
+min-width:250px;
+padding:10px 50px;
+border:2px solid gray;
+border-radius:10px;
+font-family:raleway;
+background-color:#fff
+}
+#p {
+margin-top:30px
+}
+#h2 {
+    /* background-color: #FEFFED; */
+    padding: 14px 35px;
+    margin: 10px -50px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    color: #c41a09;
+    font-size: 26px;
+    font-weight: normal;
+    line-height: 28px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: sans-serif;
+}
+#hr {
+margin:10px -50px;
+border:0;
+border-top:1px solid #ccc
+}
+#input{
+width:82%;
+padding:10px;
+border:1px solid #ccc;
+padding-left:40px;
+font-size:16px;
+font-family:raleway;
+background: #e2e3e3;
+    border: 1px solid #c9c7c7;
+    color: #1e1e1e;
+    padding: 8px 10px;
+    width: auto;
+}
+#name {
+background-image:url(../images/name.jpg);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#email {
+background-image:url(../images/email.png);
+background-repeat:no-repeat;
+background-position:5px 7px
+}
+#submit {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    display: block;
+    background-color: #FFBC00;
+    color: #fff;
+    border: 1px solid #FFCB00;
+    padding: 10px 0;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    width: 90%;
+    display: block;
+    background: #8cc14c;
+    border: 1px solid #8cc14c;
+    color: #fff;
+    padding: 5px 8px;
+    margin: 10px 0px 0px 20px;
+    height: 38px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#button {
+width:10%;
+height:45px;
+border-radius:3px;
+background-color:#cd853f;
+color:#fff;
+font-family:'Raleway',sans-serif;
+font-size:18px;
+cursor:pointer
+}
+
+.creditCardForm {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+.creditCardForm label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.creditCardForm .heading h1 {
+text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+    margin: 0;
+    padding: 0;
+}
+.creditCardForm .payment {
+    float: left;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+.creditCardForm .payment .form-group {
+    float: left;
+    margin-bottom: 15px;
+}
+.creditCardForm .payment .form-control {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+}
+.creditCardForm .owner {
+    width: 63%;
+    margin-right: 10px;
+}
+.creditCardForm .CVV {
+    width: 35%;
+}
+.creditCardForm #card-number-field {
+    width: 100%;
+}
+.creditCardForm #expiration-date {
+    width: 49%;
+}
+.creditCardForm #credit_cards {
+background-image: url(https://www.irelandwebsitedesign.com/images/pay-bills/creditcards.png);
+    height: 42px;
+    background-origin: initial;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50%;
+    margin-top: 34px;
+    text-align: right;
+}
+.creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 25px;
+}
+.creditCardForm .payment .btn {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #2ec4a5;
+    color: white;
+}
+.creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+.transparent {
+    opacity: 0.2;
+}
+@media(max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}
